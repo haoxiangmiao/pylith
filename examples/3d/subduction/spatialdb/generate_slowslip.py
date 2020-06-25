@@ -106,7 +106,6 @@ class GenerateSlowslip(Application):
   def main(self):
     # pdb.set_trace()
     self.coordsys._configure()
-    self.coordsys.initialize()
                                          
     self._makeGrid()
     self._computeGauss()
